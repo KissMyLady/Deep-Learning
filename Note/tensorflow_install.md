@@ -65,28 +65,28 @@ cudnn文件夹的复制即已完成 cuDNN 的安装，但为了让系统能够�
 4. 输入我们cuDNN的安装路径`C:\Program Files\NVIDIA GPU ComputingToolkit\CUDA\v10.0\cudnn765\bin`  
 5. 并通过“向上移动”按钮将这一项上移, 将cudnn环境变量置顶   
    
-### 4. 最后你应该看到   
-1. 环境变量中应该包含     
-> `C:\Program Files\NVIDIA GPU ComputingToolkit\CUDA\v10.0\bin`
-> `C:\Program Files\NVIDIA GPU ComputingToolkit\CUDA\v10.0\libnvvp`
-> `C:\Program Files\NVIDIA GPU ComputingToolkit\CUDA\v10.0\cudnn765\bin`
+### 4. 最后你应该看到    
+1. 环境变量中应该包含       
+> `C:\Program Files\NVIDIA GPU ComputingToolkit\CUDA\v10.0\bin`  
+> `C:\Program Files\NVIDIA GPU ComputingToolkit\CUDA\v10.0\libnvvp`  
+> `C:\Program Files\NVIDIA GPU ComputingToolkit\CUDA\v10.0\cudnn765\bin`  
 下系统变量-环境变量中, 这三个变量一定要有   
 
 
 ### 5. 下载TensorFlow  
-`pip install tensorflow-gpu -i https://pypi.tuna.tsinghua.edu.cn/simple`  
+`pip install tensorflow-gpu -i https://pypi.tuna.tsinghua.edu.cn/simple`   
 意义:  下载`tensorflow-gpu`, 后面的GPU, 就是我们的目的, 可以加强计算能力        
-![deep-3](https://github.com/KissMyLady/Deep-Learning/blob/master/Image/deep-3.jpg)  
+![deep-3](https://github.com/KissMyLady/Deep-Learning/blob/master/Image/deep-3.jpg)   
 
-测试是否成功安装:  
-1. 在 cmd命令行输入`ipython`或者`python`进入交互式终端  
-2. 输入“import tensorflow as tf”命令，如果没有错误产生，继续输入
-3. `tf.test.is_gpu_available()`测试 GPU 是否可用，此命令会打印出一系列以“I”开头的信息(Information)，其中包含了可用的 GPU显卡设备信息    
-4. 最后会返回“True”或者“False”，代表了 GPU 设备是否可用   
-5. 如果为 True，则 TensorFlow GPU版本安装成功；
-6. 如果为 False则安装失败，需要再次检测 CUDA，cuDNN，环境变量等步骤，或者复制错误，从搜索引擎中寻求帮助   
-
-![deep-4](https://github.com/KissMyLady/Deep-Learning/blob/master/Image/deep-4.jpg)  
+测试是否成功安装:   
+1. 在 cmd命令行输入`ipython`或者`python`进入交互式终端    
+2. 输入“import tensorflow as tf”命令，如果没有错误产生，继续输入    
+3. `tf.test.is_gpu_available()`测试 GPU 是否可用，此命令会打印出一系列以“I”开头的信息(Information)，其中包含了可用的 GPU显卡设备信息     
+4. 最后会返回“True”或者“False”，代表了 GPU 设备是否可用     
+5. 如果为 True，则 TensorFlow GPU版本安装成功；   
+6. 如果为 False则安装失败，需要再次检测 CUDA，cuDNN，环境变量等步骤，或者复制错误，从搜索引擎中寻求帮助    
+  
+![deep-4](https://github.com/KissMyLady/Deep-Learning/blob/master/Image/deep-4.jpg)   
 
 
 
