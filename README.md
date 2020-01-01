@@ -1,23 +1,13 @@
 Deep-Learning  
 =====
 
-## :computer: 机器学习
-敬请期待
-
 ## :pencil2: 神经网络
-敬请期待
+- [安装TensorFlow](https://github.com/KissMyLady/Deep-Learning/blob/master/Note/tensorflow_install.md)   
 
-## :floppy_disk: 强化学习
-敬请期待
-
-## :wrench: 深度学习
-敬请期待
 
 ## :bulb: 自然语言处理
 敬请期待
 
-## :watermelon: 面向未来
-敬请期待
 
 ## 其他链接   
 - [深度学习视频--B站汇总](https://www.bilibili.com/video/av65586606)  
